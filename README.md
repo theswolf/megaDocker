@@ -1,0 +1,2 @@
+# megaDocker
+megaclient dockerized
