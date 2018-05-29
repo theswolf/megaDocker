@@ -28,5 +28,8 @@ USER developer
 
 WORKDIR /home/developer
 
+CMD /opt/MEGAsync/src/MEGASync/megasync
+
 #docker run --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw"
-#QT_GRAPHICSSYSTEM="native" docker run --rm -it --privileged -e DISPLAY=unix$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix  -v /home/developer/:/home/christian/synced d95946ad5a5a
+#QT_GRAPHICSSYSTEM="native" docker run --rm -it --privileged -e DISPLAY=unix$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix  -v /home/christian/synced:/home/developer 61d59c27928d
+#/opt/MEGAsync/src/MEGASync/megasync
